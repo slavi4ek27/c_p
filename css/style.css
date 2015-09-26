@@ -50,6 +50,10 @@ a {
 .tml_1, .tml_2, .tml_3 {
 	font-weight: bold;
 	color: #808080;
+	text-decoration: none !important;
+}
+.tml_1 a, .tml_2 a, .tml_3 a {
+	text-decoration: none !important;
 }
 .tml_4 {
 	text-decoration: underline;
@@ -158,14 +162,12 @@ a {
 
 .hr2 {
 	margin: 0;
-
 	border: 0;
 	height: 1px;
 	background-image: -webkit-linear-gradient(left, rgba(191,191,191,.3), rgba(191,191,191,.8), rgba(191,191,191,.3)); 
 	background-image:    -moz-linear-gradient(left, rgba(191,191,191,.3), rgba(191,191,191,.8), rgba(191,191,191,.3)); 
 	background-image:     -ms-linear-gradient(left, rgba(191,191,191,.3), rgba(191,191,191,.8), rgba(191,191,191,.3)); 
 	background-image:      -o-linear-gradient(left, rgba(191,191,191,.3), rgba(191,191,191,.8), rgba(191,191,191,.3));  
-}
 }
 
 .media-list + hr {
@@ -350,8 +352,10 @@ a {
 }
 
 .vid_mod {
+	display: block;
 	height: 210px;
 	width: 210px;
+	text-decoration: none;
 	background-image: url("../img/play_bg.png");
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -369,7 +373,6 @@ a {
 .vid_bt {
 	display: block;
 	text-align: center;
-	text-decoration: none;
 	color: #fff;
 	font-size: 1.2em;
 	height: 210px;
